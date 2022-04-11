@@ -2,7 +2,7 @@ package sample;
 
 public class Reservation {
 
-    public Reservation(Booking booking, Passenger passenger, Trip trip) {
+    public Reservation(Trip trip, Passenger passenger) {
         this.booking = booking;
         this.passenger = passenger;
         this.trip = trip;
